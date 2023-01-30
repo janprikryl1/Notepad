@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>897</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QTextEdit" name="textEdit"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>897</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuOtev_t_ned_vn">
+     <property name="title">
+      <string>Otevřít nedávné</string>
+     </property>
+     <addaction name="separator"/>
+    </widget>
+    <addaction name="actionOpen"/>
+    <addaction name="menuOtev_t_ned_vn"/>
+    <addaction name="actionSavr"/>
+    <addaction name="actionUlo_it"/>
+    <addaction name="separator"/>
+    <addaction name="actionTisk"/>
+    <addaction name="actionN_hlad_tisku"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuN_stroje">
+    <property name="title">
+     <string>Nástroje</string>
+    </property>
+    <addaction name="actionP_smo"/>
+    <addaction name="actionBarva"/>
+    <addaction name="separator"/>
+    <addaction name="actionPo_et_slov"/>
+    <addaction name="actionPo_et_slov_2"/>
+    <addaction name="actionPo_et_definovan_ho_znaku"/>
+    <addaction name="separator"/>
+    <addaction name="actionVymazat_dvojit_mezery"/>
+    <addaction name="actionP_esmy_ky"/>
+    <addaction name="actionKontroln_sou_et"/>
+   </widget>
+   <widget class="QMenu" name="menuPython_n_stroje">
+    <property name="title">
+     <string>Python nástroje</string>
+    </property>
+    <addaction name="actionSpustit_F5"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuN_stroje"/>
+   <addaction name="menuPython_n_stroje"/>
+  </widget>
+  <action name="actionClose">
+   <property name="text">
+    <string>Ukončit bez uložení</string>
+   </property>
+  </action>
+  <action name="actionSavr">
+   <property name="text">
+    <string>Uložit jako [Ctrl + Shift + S]</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Otevřít [Ctrl + O]</string>
+   </property>
+  </action>
+  <action name="actionPo_et_slov">
+   <property name="text">
+    <string>Počet znaků</string>
+   </property>
+  </action>
+  <action name="actionPo_et_definovan_ho_znaku">
+   <property name="text">
+    <string>Počet definovaného znaku</string>
+   </property>
+  </action>
+  <action name="actionPo_et_slov_2">
+   <property name="text">
+    <string>Počet slov</string>
+   </property>
+  </action>
+  <action name="actionSoubor">
+   <property name="text">
+    <string>Soubor</string>
+   </property>
+  </action>
+  <action name="actionTisk">
+   <property name="text">
+    <string>Tisk [Ctrl + P]</string>
+   </property>
+  </action>
+  <action name="actionUlo_it">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Uložit [Ctrl + S]</string>
+   </property>
+  </action>
+  <action name="actionP_smo">
+   <property name="text">
+    <string>Písmo</string>
+   </property>
+  </action>
+  <action name="actionBarva">
+   <property name="text">
+    <string>Barva</string>
+   </property>
+  </action>
+  <action name="actionTisk_2">
+   <property name="text">
+    <string>Tisk</string>
+   </property>
+  </action>
+  <action name="actionN_hlad_tisku">
+   <property name="text">
+    <string>Náhlad tisku</string>
+   </property>
+  </action>
+  <action name="actionSpustit_F5">
+   <property name="text">
+    <string>Spustit [F5]</string>
+   </property>
+  </action>
+  <action name="actionVymazat_dvojit_mezery">
+   <property name="text">
+    <string>Vymazat dvojité mezery</string>
+   </property>
+  </action>
+  <action name="actionP_esmy_ky">
+   <property name="text">
+    <string>Přesmyčka</string>
+   </property>
+  </action>
+  <action name="actionKontroln_sou_et">
+   <property name="text">
+    <string>Kontrolní součet</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
